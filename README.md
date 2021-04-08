@@ -56,18 +56,30 @@
     通过以类样式定义组件，您不仅可以更改语法，还可以利用某些ECMAScript语言功能，例如类继承和装饰器。Vue类组件还提供了一个用于mixin继承的mixins助手，以及一个可以轻松创建自己的装饰器的createDecorator函数。
 
  # [vue-property-decorator](https://jingyan.baidu.com/article/60ccbceb05fa4125cbb19733.html)
+    ue property decorator 深度依赖了 vue class component 拓展出了很多操作符 @Prop @Emit @Inject 等等 可以说是 vue class component 的一个超集
+    正常开发的时候 你只需要使用 vue property decorator 中提供的操作符即可 不用再从vue class componen 引入vue component
 
- # [vue-router](https://jingyan.baidu.com/article/60ccbceb05fa4125cbb19733.html)
 
- # [vuex](https://jingyan.baidu.com/article/60ccbceb05fa4125cbb19733.html)
+ # [vue-router](https://router.vuejs.org/zh/)
+
+ # [vuex](https://vuex.vuejs.org/zh/)
+    state 存放状态
+    mutations state成员操作
+    getters 加工state成员给外界
+    actions 异步操作
+    modules 模块化状态管理
 
  # [vuex-class](https://jingyan.baidu.com/article/60ccbceb05fa4125cbb19733.html)
+    绑定Vuex和vue-class-component的助手
 
  # [node-sass](https://jingyan.baidu.com/article/60ccbceb05fa4125cbb19733.html)
 
- # [sass-loader](https://jingyan.baidu.com/article/60ccbceb05fa4125cbb19733.html)
+ # [sass-loader](https://www.npmjs.com/package/sass-loader)
+    加载Sass / SCSS文件并将其编译为CSS。
 
- # [typescript](https://jingyan.baidu.com/article/60ccbceb05fa4125cbb19733.html)
+ # [typescript](https://www.tslang.cn/docs/home.html)
+ TypeScript是用于应用程序级JavaScript的语言。
 
  # [vue-template-compiler](https://jingyan.baidu.com/article/60ccbceb05fa4125cbb19733.html)
+    该软件包可用于将Vue 2.0模板预编译为渲染函数，以避免运行时编译开销和CSP限制。在大多数情况下，应该将其与一起使用vue-loader，只有在编写具有非常特定需求的构建工具时，才需要单独使用它。
 
