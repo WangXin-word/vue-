@@ -83,3 +83,6 @@
  # [vue-template-compiler](https://jingyan.baidu.com/article/60ccbceb05fa4125cbb19733.html)
     该软件包可用于将Vue 2.0模板预编译为渲染函数，以避免运行时编译开销和CSP限制。在大多数情况下，应该将其与一起使用vue-loader，只有在编写具有非常特定需求的构建工具时，才需要单独使用它。
 
+# [nprogress](https://www.npmjs.com/package/nprogress)
+ Ajaxyy应用程序的细长进度条。灵感来自Google，YouTube和Medium。
+
